@@ -26,7 +26,7 @@ interface Student {
   workOnHomework(): string;
   displayName(): string;
 }
-class StudentClass implements Student {
+class StudentClass {
   firstName: string;
   lastName: string;
 
