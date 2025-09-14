@@ -31,3 +31,7 @@ function workTeacherTasks(){
   return "Getting to work";
 }
 }
+function createEmployee(salary:number){
+  if (salary < 500) return new Teacher()
+  return new Director()
+}
