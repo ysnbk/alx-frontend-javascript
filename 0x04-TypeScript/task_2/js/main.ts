@@ -1,6 +1,6 @@
 interface DirectorInterface {
   workFromHome():string;
-  getCoffeeBreak():string;
+  getToWork():string;
   workDirectorTasks():string;
 }
 interface TeacherInterface {
