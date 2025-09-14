@@ -38,3 +38,14 @@ function createEmployee(salary:number){
 function isDirector(employee){
   
 }
+type Subjects = "Math" | "History";
+function teachClass(todayClass: Subjects): string {
+  if (todayClass === "Math") {
+    return "Teaching Math";
+  } else if (todayClass === "History") {
+    return "Teaching History";
+  } else {
+    // This part is unreachable due to the type restriction on Subjects
+    throw new Error("Invalid subject");
+  }
+}
