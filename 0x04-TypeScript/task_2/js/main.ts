@@ -35,3 +35,6 @@ function createEmployee(salary:number){
   if (salary < 500) return new Teacher()
   return new Director()
 }
+function isDirector(employee){
+  
+}
