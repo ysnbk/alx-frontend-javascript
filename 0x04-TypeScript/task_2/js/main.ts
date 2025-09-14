@@ -1,6 +1,6 @@
 interface DirectorInterface {
   workFromHome():string;
-  getToWork():string;
+  getCoffeeBreak():string;
   workDirectorTasks():string;
 }
 interface TeacherInterface {
@@ -13,7 +13,7 @@ class Director implements DirectorInterface {
   function workFromHome(){
     return "Working from home";
   }
-  function getToWork(){
+  function getCoffeeBreak(){
     return "Getting a coffee break";
   }
 function workDirectorTasks(){
